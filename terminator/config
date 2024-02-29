@@ -1,0 +1,19 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.84
+    background_type = transparent
+    scrollback_lines = 700
+    use_theme_colors = True
+    title_transmit_bg_color = "#5e5c64"
+  [[New Profile]]
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
